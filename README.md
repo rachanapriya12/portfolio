@@ -45,18 +45,18 @@ A modern, responsive portfolio website built with React, showcasing skills, proj
 2. Install dependencies:
    \`\`\`bash
    npm install
-   # or
+       or
    yarn install
-   # or
+       or
    pnpm install
    \`\`\`
 
 3. Run the development server:
    \`\`\`bash
    npm run dev
-   # or
+      or
    yarn dev
-   # or
+      or
    pnpm dev
    \`\`\`
 
@@ -66,9 +66,9 @@ A modern, responsive portfolio website built with React, showcasing skills, proj
 
 \`\`\`bash
 npm test
-# or
+    or
 yarn test
-# or
+    or
 pnpm test
 \`\`\`
 
@@ -109,5 +109,3 @@ Rachana Priya Martha - martharachanapriya@gmail.com
 
 Project Link: [https://github.com/rachanapriya12/portfolio-website](https://github.com/rachanapriya12/portfolio-website)
 \`\`\`
-
-
