@@ -38,8 +38,8 @@ A modern, responsive portfolio website built with React, showcasing skills, proj
 
 1. Clone the repository:
    \`\`\`bash
-   git clone https://github.com/rachanapriya12/portfolio-website.git
-   cd portfolio-website
+   git clone https://github.com/rachanapriya12/portfolio.git
+   cd portfolio
    \`\`\`
 
 2. Install dependencies:
