@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+html {
+scroll-behavior: smooth;
+}
+
+body {
+@apply bg-white text-gray-800 dark:bg-gray-900 dark:text-white transition-colors duration-300;
+}
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+width: 8px;
+}
+
+::-webkit-scrollbar-track {
+@apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+@apply bg-purple-500/30 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+@apply bg-purple-500/50;
+}
+
+/* Glass morphism */
+@layer components {
+.glass {
+@apply backdrop-blur-md bg-white/30 dark:bg-gray-800/30 border border-white/20 dark:border-gray-700/20;
+}
+
+.glass-card {
+@apply backdrop-blur-md bg-white/30 dark:bg-gray-800/30 rounded-xl border border-white/20 dark:border-gray-700/20 shadow-lg hover:shadow-xl transition-all duration-300;
+}
+
+.glass-hover {
+@apply hover:bg-white/40 dark:hover:bg-gray-800/40 transition-all duration-300;
+}
+
+.glass-icon-container {
+@apply p-3 rounded-lg glass text-purple-500 dark:text-purple-400;
+}
+}
+
+/* Animation utilities */
+@keyframes float {
+0% {
+transform: translateY(0px);
+}
+50% {
+transform: translateY(-10px);
+}
+100% {
+transform: translateY(0px);
+}
+}
+
+.animate-float {
+animation: float 3s ease-in-out infinite;
+}
+
+@keyframes pulse-glow {
+0%,
+100% {
+box-shadow: 0 0 5px 0 rgba(139, 92, 246, 0.3);
+}
+50% {
+box-shadow: 0 0 20px 5px rgba(139, 92, 246, 0.5);
+}
+}
+
+.animate-pulse-glow {
+animation: pulse-glow 3s ease-in-out infinite;
+}
