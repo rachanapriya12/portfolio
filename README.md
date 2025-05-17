@@ -38,7 +38,7 @@ A modern, responsive portfolio website built with React, showcasing skills, proj
 
 1. Clone the repository:
    \`\`\`bash
-   git clone https://github.com/rachanapriya12/portfolio.git
+   git clone [https://github.com/rachanapriya12/portfolio](https://github.com/rachanapriya12/portfolio.git)
    cd portfolio
    \`\`\`
 
@@ -107,5 +107,5 @@ This project is open source and available under the MIT License.
 
 Rachana Priya Martha - martharachanapriya@gmail.com
 
-Project Link: [https://github.com/rachanapriya12/portfolio-website](https://github.com/rachanapriya12/portfolio-website)
+Project Link: [https://github.com/rachanapriya12/portfolio](https://github.com/rachanapriya12/portfolio.git)
 \`\`\`
