@@ -6,34 +6,45 @@ import { useInView } from "react-intersection-observer"
 import { FiCalendar, FiChevronRight, FiChevronLeft } from "react-icons/fi"
 
 const experiences = [
-{
-title: "Full Stack Developer",
-company: "OmniNeura AI Technologies",
-period: "Apr 2024 – Feb 2025",
-responsibilities: [
-    "Developed AI-driven products including GPT applications, internal platforms, and user-facing studios",
-    "Built and optimized scalable AI solutions using the MERN stack and AWS services",
-    "Enhanced system performance and user engagement through AI functionality improvements",
-    "Collaborated with cross-functional teams to integrate and deploy advanced AI features",
-],
-},
-{
-title: "Web Development Intern",
-company: "CodTech IT Solutions",
-period: "Mar 2024 – Apr 2024",
-responsibilities: [
-    "Gained hands-on experience in frontend development using HTML, CSS, and JavaScript",
-    "Created responsive components and practiced debugging for UI consistency",
-],
-},
-{
-title: "Business Development Executive",
-company: "INDIABUYS (Amazon)",
-period: "Jun 2021 – Oct 2022",
-responsibilities: [
-    "Identified new business opportunities to drive revenue and profitability",
-    "Collaborated with sales and marketing teams to support client acquisition",
-    "Conducted market research and competitor analysis to shape business strategies",
+  {
+    title: "Full Stack Developer",
+    company: "OmniNeura AI Technologies",
+    period: "Apr 2024 – Feb 2025",
+    responsibilities: [
+      "Developed AI-powered web applications and tools to support GPT-based platforms and user workflows",
+      "Built and maintained full-stack features using React, FastAPI, MongoDB, PostgreSQL, and Express.js",
+      "Integrated Generative AI and LLM-based APIs into user-facing tools with seamless backend support",
+      "Enhanced application performance using Vite, lazy loading, and optimized component rendering",
+      "Managed state with Redux/ReduxToolkit, reducing API overhead and simplifying data flow",
+      "Developed and consumed REST APIs using Python and FastAPI for real-time backend communication",
+      "Followed Agile methodologies with Zoho and managed deployments using Git/GitHub",
+    ],
+  },
+  {
+    title: "Full Stack Developer",
+    company: "Saketh IT Solutions",
+    period: "Oct 2021 – Apr 2024",
+    responsibilities: [
+      "Designed and developed the LPG Admin Portal and Mobile App for order tracking, reporting, and user management",
+      "Built and deployed the LocalPharmaGuide platform, connecting pharmacies, suppliers, and customers",
+      "Developed reusable React.js components and REST APIs with Node.js/Express.js for scalable backend support",
+      "Implemented SQL-based schemas and optimized queries for relational data management",
+      "Enhanced frontend performance with modular UI design and responsive layouts",
+      "Deployed applications on AWS EC2/S3 and Dockerized services for portability and scalability",
+      "Collaborated with cross-functional teams to deliver secure authentication, order processing, and reporting features",
+      "Applied Agile methodologies for sprint-based delivery and managed tasks using GitHub",
+    ],
+  },
+  {
+    title: "Business Development Executive",
+    company: "Indiabuys (Amazon Partner)",
+    period: "Nov 2020 – Sept 2021",
+    responsibilities: [
+      "Contributed to Amazon-aligned digital sales efforts, focusing on lead generation, client communication, and strategy execution",
+      "Handled client onboarding and platform-related issue resolution to boost satisfaction",
+      "Collaborated with sales and marketing teams to enhance client acquisition strategies",
+      "Conducted competitor analysis and market research to shape product positioning",
+      "Tracked performance and outreach analytics using CRM and Google Workspace tools",
 ],
 },
 {
