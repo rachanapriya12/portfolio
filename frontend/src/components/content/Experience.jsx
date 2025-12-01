@@ -9,57 +9,34 @@ const experiences = [
   {
     title: "Full Stack Developer",
     company: "OmniNeura AI Technologies",
-    period: "Apr 2024 – Feb 2025",
+    period: "May 2024 – Feb 2025",
     responsibilities: [
-      "Developed AI-powered web applications and tools to support GPT-based platforms and user workflows",
-      "Built and maintained full-stack features using React, FastAPI, MongoDB, PostgreSQL, and Express.js",
-      "Integrated Generative AI and LLM-based APIs into user-facing tools with seamless backend support",
-      "Enhanced application performance using Vite, lazy loading, and optimized component rendering",
-      "Managed state with Redux/ReduxToolkit, reducing API overhead and simplifying data flow",
-      "Developed and consumed REST APIs using Python and FastAPI for real-time backend communication",
-      "Followed Agile methodologies with Zoho and managed deployments using Git/GitHub",
+      "Developed AI-powered web applications supporting GPT-based platforms, model studios, and interactive workflows",
+      "Built full-stack features using React, Python, FastAPI, MongoDB, PostgreSQL, and Express.js",
+      "Integrated Generative AI and LLM APIs into user-facing tools",
+      "Enhanced performance using Vite, lazy loading, and optimized rendering techniques",
+      "Managed application state using Redux and Redux Toolkit",
+      "Developed and consumed REST APIs using Python and FastAPI",
+      "Ensured data integrity across MongoDB and PostgreSQL using Mongoose",
+      "Created feedback and logging modules for real-time user issue tracking",
+      "Collaborated in Agile teams using Zoho and managed version control with Git & GitHub",
     ],
   },
   {
     title: "Full Stack Developer",
-    company: "Saketh IT Solutions",
-    period: "Oct 2021 – Apr 2024",
+    company: "ONSPEC Technology Solutions Pvt. Ltd.",
+    period: "Nov 2018 – Feb 2024",
     responsibilities: [
-      "Designed and developed the LPG Admin Portal and Mobile App for order tracking, reporting, and user management",
-      "Built and deployed the LocalPharmaGuide platform, connecting pharmacies, suppliers, and customers",
-      "Developed reusable React.js components and REST APIs with Node.js/Express.js for scalable backend support",
-      "Implemented SQL-based schemas and optimized queries for relational data management",
-      "Enhanced frontend performance with modular UI design and responsive layouts",
-      "Deployed applications on AWS EC2/S3 and Dockerized services for portability and scalability",
-      "Collaborated with cross-functional teams to deliver secure authentication, order processing, and reporting features",
-      "Applied Agile methodologies for sprint-based delivery and managed tasks using GitHub",
+      "Developed CRM, E-commerce, mobile, and custom web applications aligned with enterprise workflows",
+      "Built responsive Web Apps, CRM modules, and mobile interfaces using React, TypeScript, Node.js, and Express.js",
+      "Developed REST APIs and optimized SQL Server databases for scalable performance",
+      "Created modular UI components and improved frontend responsiveness",
+      "Implemented authentication, workflow automation, reporting dashboards, and other core platform features",
+      "Collaborated within Agile teams, managed GitHub versioning, and performed testing and debugging",
     ],
-  },
-  {
-    title: "Business Development Executive",
-    company: "Indiabuys (Amazon Partner)",
-    period: "Nov 2020 – Sept 2021",
-    responsibilities: [
-      "Contributed to Amazon-aligned digital sales efforts, focusing on lead generation, client communication, and strategy execution",
-      "Handled client onboarding and platform-related issue resolution to boost satisfaction",
-      "Collaborated with sales and marketing teams to enhance client acquisition strategies",
-      "Conducted competitor analysis and market research to shape product positioning",
-      "Tracked performance and outreach analytics using CRM and Google Workspace tools",
-],
-},
-{
-title: "Additional Experience",
-company: "",
-period: "",
-responsibilities: [
-    "Developed mobile applications using React Native and Kotlin as part of self-initiated learning",
-    "Utilized Zoho for sprint-based task tracking and agile workflow practice",
-    "Managed digital content and social media platforms to enhance brand visibility",
-    "Engaged with online tech communities and facilitated technical discussions",
-    "Created structured learning resources to support peer education and engagement",
-],
-},
+  }
 ];
+
 
 const Experience = () => {
 const [ref, inView] = useInView({
