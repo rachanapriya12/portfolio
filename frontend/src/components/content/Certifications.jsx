@@ -7,10 +7,9 @@ import { FiAward, FiCheckCircle } from "react-icons/fi"
 const certifications = [
   "Generative AI & LLM App Development – Udemy",
   "Python Programming – Udemy",
-  "Virtual Internship Program in Web Development – CodTech IT Solutions",
-  "Web Development Fundamentals – Edyoda",
-  "ReactJS Certification – Edyoda",
-  "Node.js, Express & MongoDB Certification – Edyoda",
+  "Web Development Fundamentals",
+  "ReactJS Certification",
+  "Node.js, Express & MongoDB Certification",
   "Published Research: 'A Novel Approach of Enhancing the System Reliability in Wind-Hydro Micro-Grids for Remote Control Areas'",
 ];
 
