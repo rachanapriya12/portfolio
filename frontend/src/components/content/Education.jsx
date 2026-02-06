@@ -7,18 +7,6 @@ import { FiAward, FiCalendar, FiMapPin, FiChevronLeft, FiChevronRight } from "re
 
 const educationItems = [
 {
-degree: "Full Stack MERN Developer certification",
-institution: "Edyoda (online), India",
-location: "Online",
-year: "February 2024",
-},
-{
-degree: "Master of Technology in Power system Control and Automation",
-institution: "JNTUH University, Vaagdevi College of Engineering",
-location: "Warangal, Telangana",
-year: "2020",
-},
-{
 degree: "Bachelors of Technology in Electrical and Electronics Engineering",
 institution: "JNTUH University, SumatiReddy Institute of Technology for women",
 location: "Warangal, Telangana",
